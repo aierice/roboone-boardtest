@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=shinkanjissou0401.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\shinkanjissou0401 -TC:\CooCox\CoIDE\configuration\ProgramData\shinkanjissou0401/arm-gcc-link.ld -g">
+      <target file="shinkanjissou0401.elf" lastModified="153e5dc0ad8">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="153d287fc76"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="153d286f2c7"/>
+         <source file="..\obj\main.o" lastModified="153e5dc0182"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="153d288026c"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="153d28804bc"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="153d2880748"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="153d2880963"/>
+         <source file="..\obj\misc.o" lastModified="153d2880be5"/>
+      </target>
+   </processor>
+</history>
