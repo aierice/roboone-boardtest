@@ -7,21 +7,21 @@ int main( void)
 
 	SystemInit();
 	GPIO_Configuration();
-	NVIC_Configuration();
-	USART2_Configuration();
-	USART6_Configuration();
+//	NVIC_Configuration();
+//	USART2_Configuration();
+//	USART6_Configuration();
 	GPIO_SetBits(GPIOA,GPIO_Pin_10);
-	if(SysTick_Config(SystemCoreClock / 1000)){
-		while(1);
-	}
-	while(1){
+//	if(SysTick_Config(SystemCoreClock / 1000)){
+//		while(1);
+//	}
+/*	while(1){
 //		while(GPIO_ReadInputDataBit(GPIOC,GPIO_Pin_0));
 		GPIO_SetBits(GPIOA,GPIO_Pin_10);
 		tdelay(1000);
 		GPIO_ResetBits(GPIOA,GPIO_Pin_10);
 		tdelay(1000);
 	}
-
+*/
 }
 /*
 void USART2_IRQHandler( void){
